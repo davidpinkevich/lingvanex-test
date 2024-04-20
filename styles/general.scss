@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import "./normalize.scss";
+@import "./mixins.scss";
+@import "./product.scss";
+@import "./solution.scss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 1270px;
+  padding: 0 15px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  @media (max-width: 1300px) {
+    @include adaptiv-360(width, 1270, 360);
+  }
+}
