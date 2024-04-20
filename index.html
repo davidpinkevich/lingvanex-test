@@ -3,10 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/general.scss" />
     <title>Lingvanex</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main class="content">
+      <section class="content__solution solution">
+        <div class="solution__info">
+          <h2 class="solution__info-title">Our language solution</h2>
+          <p class="solution__info-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since
+          </p>
+        </div>
+        <div class="solution__info-items items__solution">
+          <div class="items__solution-item">
+            <h3>Translation</h3>
+            <p>
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
+            </p>
+            <div class="items__solution-item-img">
+              <img
+                src="./assets/images/solution/translition.svg"
+                alt="translition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="items__solution-item">
+            <h3>Social listening</h3>
+            <p>
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
+            </p>
+            <div class="items__solution-item-img">
+              <img
+                src="./assets/images/solution/listening.svg"
+                alt="listening"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="items__solution-item">
+            <h3>Content generation</h3>
+            <p>
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
+            </p>
+            <div class="items__solution-item-img">
+              <img
+                src="./assets/images/solution/generation.svg"
+                alt="generation"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="product__info">
+          <h2 class="product__info-title">Who is this product for?</h2>
+          <p class="product__info-text">
+            Lingvanex Bot can simply solve a language barrier problem in your
+            team, community, with your international clients and outsourcing
+            partners. It automatically identifies the languages in a
+            conversation and translates all messages of your team members into a
+            chosen language.
+          </p>
+        </div>
+        <div class="product__navigate">
+          <button id="0" class="active">For travelers</button>
+          <button id="1">For travel organization</button>
+          <button id="2">For employees</button>
+        </div>
+        <div class="product__carousel carousel wrapper">
+          <div data-id="0" class="carousel__item top">
+            <div class="carousel__item-info">
+              <h3>For travelers</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__item-img">
+              <img
+                src="./assets/images/product/1.png"
+                loading="lazy"
+                alt="travelers"
+              />
+            </div>
+          </div>
+          <div data-id="1" class="carousel__item mid">
+            <div class="carousel__item-info">
+              <h3>
+                For travel<br />
+                organization
+              </h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__item-img">
+              <img
+                src="./assets/images/product/2.png"
+                loading="lazy"
+                alt="travel"
+              />
+            </div>
+          </div>
+          <div data-id="2" class="carousel__item bot">
+            <div class="carousel__item-info">
+              <h3>For employees</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms,<br />
+                  hypernyms, hyponyms .and more.
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__item-img">
+              <img
+                src="./assets/images/product/3.png"
+                loading="lazy"
+                alt="employees"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
